@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Capgemini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        #introduction {
+            height: auto;
+            width: 100%;
+            background-color: rgb(211, 245, 255);
+            padding: 20px;
+            border: 3px solid #3ecae6;
+            border-radius: 20px;
+        }
+
+        .formularioAlumno {
+            text-decoration-line: underline;
+            text-decoration-color: rgb(174, 234, 131);
+        }
+
+        .dias{
+            letter-spacing: 3px;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./sobreMi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./estanciaEnCapgemini.html">Estancia en Capgemini</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.w3schools.com/" target="_blank">Ayuda</a>
+                </li>
+
+        </div>
+    </nav>
+
+    <div class="p-5">
+        <div id="introduction">
+            <h4>A continuación, comentarás como ha sido tu estancia en Capgemini estos últimos días. </h4>
+            <p>La idea es que se haga uso de lo aprendido (HTML, CSS) a tu gusto. </p>
+        </div>
+
+        <br>
+
+        <!-- Ejercicio 0. Realiza un formulario en el que se pueda introducir el nombre de una persona, con sus apellidos, instituto en el que estudia y clase a la que va. -->
+        <!-- El nombre y el apellido deben ser requeridos es decir, al pulsar el botón de enviar, no se realizará el envío de datos -->
+        <!-- No ponga ninguna acción en el form, de esta forma al pulsar el botón de enviar los datos únicamente se verán en la url -->
+        <!-- Debe haber un botón de enviar que será el encargado de transmitir los datos introducidos en el form para que en un futuro puedan ser utilizados -->
+        <!-- Ayuda: https://www.w3schools.com/html/html_forms.asp -->
+        <h5 class="formularioAlumno">Formulario del alumno</h5>
+        <!-- Aquí donde debe aparecer el formulario -->
+        <br>
+
+        <!-- EJERCICIO 1. Establece un color de fondo a cada día -->
+        <!-- Info: backgroundcolor (https://www.w3schools.com/html/html_styles.asp, https://www.w3schools.com/css/css_colors.asp) -->
+        <!-- Info: lista de colores que soporta html (https://www.w3schools.com/html/html_colors.asp) -->
+        <!-- Pista: Cada día va englobado dentro de un div -->
+        <div>
+            <!-- EJERCICIO 2. Describe tu primer día en la empresa -->
+            <h3 class="dias">Día 1: </h3>
+            <!-- EJERCICIO 2.1 Describe tus actividades realizadas durante cada día haciendo uso de HTML (https://www.w3schools.com/html/default.asp) y CSS (https://www.w3schools.com/css/default.asp) -->
+            <!-- Las actividades tienen que ir dentro de una lista cualquiera (https://www.w3schools.com/html/html_lists.asp) y con un título (heading como h1, h2, etc.) -->
+            <!-- El texto que describa cada actividad tiene que ser de un color distinto dependiendo de lo mucho que te hayan gustado (https://www.w3schools.com/html/html_styles.asp -->
+            <!-- Ejemplo: usar colores como verde, amarillo, naranja y rojo para indicar qué actividad te ha gustado más o menos -->
+            <h6>Actividades que has realizado durante el día:</h6>
+            <!-- EJERCICIO 2.2 Expresa cómo te has sentido a lo largo del día -->
+            <h6>¿Cómo te has sentido durante el día? Inserta tantas imágenes como quieras:</h6>
+            <!-- EJERCICIO 2.3 Conclusiones finales del día, qué has aprendido, momento destacado del día, dificultades encontradas, qué podrías mejorar, etc. -->
+            <!-- Estilo a elegir,  -->
+            <h6>¿Qué aprendiste este día? </h6>
+        </div>
+
+        <div>
+            <!-- EJERCICIO 3. Describe tu segundo día en la empresa -->
+            <h3 class="dias">Día 2: </h3>
+            <!-- EJERCICIO 3.1 Describe tus actividades realizadas durante el día. -->
+            <!-- Las actividades se tienen que agrupar en una lista como las que aparecen en este ejemplo ('Styling List With Colors' https://www.w3schools.com/css/css_list.asp) -->
+            <h6>Actividades que has realizado durante el día:</h6>
+            <!-- EJERCICIO 3.2 Expresa cómo te has sentido a lo largo del día -->
+            <h6>¿Cómo te has sentido durante el día? Inserta tantas imágenes, videos, links como quieras:</h6>
+            <!-- EJERCICIO 3.3 Conclusiones finales del día, qué has aprendido, momento destacado del día, dificultades encontradas, qué podrías mejorar, etc. -->
+            <!-- Estilo a elegir -->
+            <h6>¿Qué aprendiste este día?</h6>
+        </div>
+
+        <div>
+            <!-- EJERCICIO 4. Describe tu tercer día en la empresa -->
+            <h3 class="dias">Día 3: </h3>
+            <!-- EJERCICIO 4.1 Describe tus actividades realizadas durante el día. -->
+            <!-- Cada tarea debe estar dentro de una tarjeta con borde de 1px, un radio del borde de 8px, un padding de 20 px, y un margen inferior (margin-button) de 20px -->
+            <!-- Las tarjetas de las actividades deben tener un título pequeño, la hora aproximada a la que se realizó y una descripción más detallada  -->
+            <!-- El título debe tener una fuente de texto diferente (https://www.w3schools.com/css/css_font.asp) -->
+            <!-- Ayuda: https://www.w3schools.com/css/css_border.asp, https://www.w3schools.com/css/css_margin.asp, https://www.w3schools.com/css/css_padding.asp, https://www.w3schools.com/css/css_dimension.asp, https://www.w3schools.com/css/css_boxmodel.asp-->
+            <!-- Puedes encontrar un ejemplo de las tarjetas en /resources/actividadesTarjetas.png -->
+            <h6>Actividades que has realizado durante el día:</h6>
+            <!-- EJERCICIO 4.2 Expresa cómo te has sentido a lo largo del día -->
+            <h6>¿Cómo te has sentido durante el día? Inserta tantas imágenes, videos, links como quieras:</h6>
+            <!-- EJERCICIO 4.3 Conclusiones finales del día, qué has aprendido, momento destacado del día, dificultades encontradas, qué podrías mejorar, etc. -->
+            <!-- Estilo a elegir -->
+            <h6>¿Qué aprendiste este día?</h6>
+        </div>
+    </div>
+</body>
+
+</html>
